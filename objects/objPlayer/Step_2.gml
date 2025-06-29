@@ -1,15 +1,3 @@
-if align == -1
-{
-	if place_meeting(x, y+1, objSurface) || place_meeting(x, y-1, objSurface) { align = horizontal; }
-	if place_meeting(x+1, y, objSurface) || place_meeting(x-1, y, objSurface)
-	{
-		if align != horizontal { align = vertical; }
-		else { align = horiverti; }
-	}
-	
-	if align == -1 { align = air; }
-}
-
 switch align
 {
 	case air:
@@ -34,12 +22,12 @@ switch align
 		break;
 }
 
-if place_meeting(x+hMove, y+vMove, objSurface)
+if !place_free(x+hMove, y+vMove)
 {
 	var hMovement = hMove;
 	var vMovement = vMove;
 	
-	while !place_meeting(x+sign(hMovement), y+sign(vMovement), objSurface)
+	while place_free(x+sign(hMovement), y+sign(vMovement))
 	{
 		var hAdd = sign(hMovement);
 		var vAdd = sign(vMovement);
@@ -57,13 +45,13 @@ if place_meeting(x+hMove, y+vMove, objSurface)
 	
 	for (var i = 0; i < abs(hMovement); i++)
 	{
-		if place_meeting(x+sign(hMovement), y, objSurface) { break; }
+		if !place_free(x+sign(hMovement), y) { break; }
 		if abs(hMovement) - i < 1 { x += hMovement - i; break; } else { x += sign(hMovement); }
 	}
 	
 	for (var i = 0; i < abs(vMovement); i++)
 	{
-		if place_meeting(x, y+sign(vMovement), objSurface) { break; }
+		if !place_free(x, y+sign(vMovement)) { break; }
 		if abs(vMovement) - i < 1 { y += vMovement - i; break; } else { y += sign(vMovement); }
 	}
 }
