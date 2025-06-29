@@ -15,7 +15,7 @@ switch align
 	case air:
 		hMove = lerp(hMove, (global.r-global.l)*spd, 0.1);
 		vMove += grav;
-		vMove = clamp(vMove, -10, 10);
+		vMove = clamp(vMove, -8, 8);
 		break;
 	
 	case horizontal:
@@ -35,41 +35,43 @@ switch align
 }
 
 if place_meeting(x+hMove, y+vMove, objSurface)
-{	
-	while !place_meeting(x+sign(hMove), y+sign(vMove), objSurface)
+{
+	var hMovement = hMove;
+	var vMovement = vMove;
+	
+	while !place_meeting(x+sign(hMovement), y+sign(vMovement), objSurface)
 	{
-		var hAdd = sign(hMove);
-		var vAdd = sign(vMove);
+		var hAdd = sign(hMovement);
+		var vAdd = sign(vMovement);
 		
-		if abs(hMove) < 1 { hAdd = hMove; }
-		if abs(vMove) < 1 { vAdd = vMove; }
+		if abs(hMovement) < 1 { hAdd = hMovement; }
+		if abs(vMovement) < 1 { vAdd = vMovement; }
 		
 		x += hAdd;
 		y += vAdd;
-		hMove -= hAdd;
-		vMove -= vAdd;
+		hMovement -= hAdd;
+		vMovement -= vAdd;
 		
-		if abs(hMove) < 0.2 && abs(vMove) < 0.2 { break; }
+		if abs(hMovement) < 0.2 && abs(vMovement) < 0.2 { break; }
 	}
 	
-	for (var i = 0; i < abs(hMove); i++)
+	for (var i = 0; i < abs(hMovement); i++)
 	{
-		if place_meeting(x+sign(hMove), y, objSurface) { break; }
-		if abs(hMove) - i < 1 { x += hMove - i; break; } else { x += sign(hMove); }
+		if place_meeting(x+sign(hMovement), y, objSurface) { break; }
+		if abs(hMovement) - i < 1 { x += hMovement - i; break; } else { x += sign(hMovement); }
 	}
 	
-	for (var i = 0; i < abs(vMove); i++)
+	for (var i = 0; i < abs(vMovement); i++)
 	{
-		if place_meeting(x, y+sign(vMove), objSurface) { break; }
-		if abs(vMove) - i < 1 { y += vMove - i; break; } else { y += sign(vMove); }
+		if place_meeting(x, y+sign(vMovement), objSurface) { break; }
+		if abs(vMovement) - i < 1 { y += vMovement - i; break; } else { y += sign(vMovement); }
 	}
-	
-	hMove = 0;
-	vMove = 0;
 }
-
-x += hMove;
-y += vMove;
+else
+{
+	x += hMove;
+	y += vMove;
+}
 
 if hMove != 0 { angle += hMove * -spd/2; }
 else { angle += vMove * -spd/2; }

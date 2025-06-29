@@ -5,3 +5,7 @@
 
 #macro positive 0
 #macro negative 1
+
+randomize();
+
+room_goto(rmStart);
