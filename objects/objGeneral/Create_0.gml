@@ -8,4 +8,7 @@
 
 randomize();
 
+global.prevX = 0;
+global.prevY = 0;
+
 room_goto(rmStart);

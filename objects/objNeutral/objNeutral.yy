@@ -6,8 +6,8 @@
   "name":"objNeutral",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Surfaces",
+    "path":"folders/Objects/Surfaces.yy",
   },
   "parentObjectId":null,
   "persistent":false,

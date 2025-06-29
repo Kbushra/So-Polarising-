@@ -9,8 +9,8 @@
   "name":"objGeneral",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Important",
+    "path":"folders/Objects/Important.yy",
   },
   "parentObjectId":null,
   "persistent":true,

@@ -1,0 +1,18 @@
+depth = -99999;
+
+if image_index > 3 && !transition
+{
+	objPlayer.x = global.prevX;
+	objPlayer.y = global.prevY;
+	camPos(false);
+	
+	transition = true;
+}
+
+objPlayer.hMove = 0;
+objPlayer.vMove = 0;
+
+if image_index > 7 { instance_destroy(); exit; }
+
+x = camera_get_view_x(view_camera[0]);
+y = camera_get_view_y(view_camera[0]);

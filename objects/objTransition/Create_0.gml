@@ -1,5 +1,3 @@
-depth = -99999;
-
 transition = false;
 targRoom = rmStart;
 targX = 0;
