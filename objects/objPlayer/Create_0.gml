@@ -1,6 +1,8 @@
-align = air;
+align = -1;
 hMove = 0;
 vMove = 0;
 
-spd = 3;
-grav = 0.2;
+spd = 5;
+grav = 0.15;
+
+angle = 0;

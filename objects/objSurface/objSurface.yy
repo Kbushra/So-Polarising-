@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"objSurface",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"objSurface",
   "overriddenProperties":[],
@@ -23,7 +25,10 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"charge","filters":[],"listItems":[],"multiselect":false,"name":"charge","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"negative","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"strength","filters":[],"listItems":[],"multiselect":false,"name":"strength","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.8","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
@@ -32,5 +37,5 @@
     "path":"sprites/sprSurface/sprSurface.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
