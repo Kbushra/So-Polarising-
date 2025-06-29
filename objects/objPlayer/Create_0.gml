@@ -1,4 +1,4 @@
-align = horizontal;
+align = air;
 hMove = 0;
 vMove = 0;
 
