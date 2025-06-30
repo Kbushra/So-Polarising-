@@ -7,10 +7,11 @@ if image_index > 3 && !transition
 	objPlayer.y = targY;
 	global.prevX = targX;
 	global.prevY = targY;
-	camPos(false);
 	
 	transition = true;
 }
+
+if room == targRoom { camPos(false); }
 
 if image_index > 7 { instance_destroy(); exit; }
 

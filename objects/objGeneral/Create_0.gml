@@ -14,3 +14,5 @@ global.prevY = 0;
 global.score = 0;
 
 room_goto(rmStart);
+objPlayer.x = 341.5;
+objPlayer.y = -64;

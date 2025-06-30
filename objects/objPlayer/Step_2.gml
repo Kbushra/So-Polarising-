@@ -2,8 +2,7 @@ if global.r-global.l != 0 && abs(hMove) > spd - 0.2
 {
 	if abs(hMove) > spd + 1
 	{
-		show_debug_message("fast");
-		surplus += 0.001;
+		surplus += 0.002;
 		if !instance_exists(objHFast) { instance_create_layer(x, y, "Instances", objHFast); }
 	}
 	else { surplus += 0.01; }
@@ -36,6 +35,12 @@ switch align
 
 if vMove > 7.8 { if !instance_exists(objVFast) { instance_create_layer(x, y, "Instances", objVFast); } }
 else if instance_exists(objVFast) { instance_destroy(objVFast); }
+
+if align != air
+{
+	if align != vertical && !place_free(x+global.r-global.l, y) { hMove = 0; }
+	if align != horizontal && !place_free(x, y+global.d-global.u) { vMove = 0; }
+}
 
 if !place_free(x+hMove, y+vMove)
 {

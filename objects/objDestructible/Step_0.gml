@@ -1,0 +1,1 @@
+if place_meeting(x, y, objHFast) || place_meeting(x, y, objVFast) { instance_destroy(); }
