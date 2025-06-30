@@ -1,13 +1,25 @@
+if global.r-global.l != 0 && abs(hMove) > spd - 0.2
+{
+	if abs(hMove) > spd + 1
+	{
+		show_debug_message("fast");
+		surplus += 0.001;
+		if !instance_exists(objHFast) { instance_create_layer(x, y, "Instances", objHFast); }
+	}
+	else { surplus += 0.01; }
+}
+else { surplus = 1; hMove = clamp(hMove, -spd, spd); }
+
 switch align
 {
 	case air:
-		hMove = lerp(hMove, (global.r-global.l)*spd, 0.1);
+		hMove = lerp(hMove, (global.r-global.l)*spd*surplus, 0.1);
 		vMove += grav;
 		vMove = clamp(vMove, -8, 8);
 		break;
 	
 	case horizontal:
-		hMove = lerp(hMove, (global.r-global.l)*spd, 0.1);
+		hMove = lerp(hMove, (global.r-global.l)*spd*surplus, 0.1);
 		vMove = 0;
 		break;
 	
@@ -17,10 +29,13 @@ switch align
 		break;
 	
 	case horiverti:
-		hMove = lerp(hMove, (global.r-global.l)*spd, 0.1);
+		hMove = lerp(hMove, (global.r-global.l)*spd*surplus, 0.1);
 		vMove = lerp(vMove, (global.d-global.u)*spd, 0.1);
 		break;
 }
+
+if vMove > 7.8 { if !instance_exists(objVFast) { instance_create_layer(x, y, "Instances", objVFast); } }
+else if instance_exists(objVFast) { instance_destroy(objVFast); }
 
 if !place_free(x+hMove, y+vMove)
 {

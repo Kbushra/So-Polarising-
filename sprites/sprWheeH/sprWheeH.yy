@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Hints",
-    "path":"folders/Sprites/Hints.yy",
+    "name":"Tips",
+    "path":"folders/Sprites/Tips.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

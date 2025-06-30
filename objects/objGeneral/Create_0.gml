@@ -11,4 +11,6 @@ randomize();
 global.prevX = 0;
 global.prevY = 0;
 
+global.score = 0;
+
 room_goto(rmStart);

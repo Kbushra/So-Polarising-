@@ -19,6 +19,10 @@ with objPlayer
 			vMove += -other.strength*0.8/clampI;
 			align = air;
 		}
-		if place_meeting(x, y-i, other.id) { vMove += other.strength*0.2/i; align = air; } //Ceil
+		if place_meeting(x, y-i, other.id) //Ceil
+		{
+			vMove += other.strength*0.2/i;
+			align = air;
+		}
 	}
 }
