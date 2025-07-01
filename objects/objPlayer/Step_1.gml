@@ -1,4 +1,4 @@
-if keyboard_check_pressed(vk_space) { image_index = !image_index; }
+if keyboard_check_pressed(vk_space) { image_index = !image_index; audio_play_sound(sndSwitch, 10, false); }
 
 if align == -1
 {

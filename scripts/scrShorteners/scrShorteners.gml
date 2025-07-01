@@ -13,3 +13,11 @@ function camPos(lerp_)
 	
 	camera_set_view_pos(view_camera[0], lerpX, lerpY);
 }
+
+function falseControls()
+{
+	global.l = false;
+	global.r = false;
+	global.u = false;
+	global.d = false;
+}

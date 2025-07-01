@@ -19,8 +19,6 @@
     {"name":"inst_45CC21E1","path":"rooms/rmMomentum/rmMomentum.yy",},
     {"name":"inst_405A0F49","path":"rooms/rmMomentum/rmMomentum.yy",},
     {"name":"inst_27817C98","path":"rooms/rmMomentum/rmMomentum.yy",},
-    {"name":"inst_64E7BE40","path":"rooms/rmMomentum/rmMomentum.yy",},
-    {"name":"inst_561AF5","path":"rooms/rmMomentum/rmMomentum.yy",},
     {"name":"inst_782AB3AD","path":"rooms/rmMomentum/rmMomentum.yy",},
     {"name":"inst_2899EAB9","path":"rooms/rmMomentum/rmMomentum.yy",},
     {"name":"inst_56AC9672","path":"rooms/rmMomentum/rmMomentum.yy",},
@@ -35,6 +33,8 @@
     {"name":"inst_6E0D0CB1","path":"rooms/rmMomentum/rmMomentum.yy",},
     {"name":"inst_1DCE1FD6","path":"rooms/rmMomentum/rmMomentum.yy",},
     {"name":"inst_38E4EDF3","path":"rooms/rmMomentum/rmMomentum.yy",},
+    {"name":"inst_561AF5","path":"rooms/rmMomentum/rmMomentum.yy",},
+    {"name":"inst_64E7BE40","path":"rooms/rmMomentum/rmMomentum.yy",},
   ],
   "isDnd":false,
   "layers":[

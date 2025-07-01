@@ -4,13 +4,12 @@ if image_index > 3 && !transition
 {
 	objPlayer.x = global.prevX;
 	objPlayer.y = global.prevY;
+	objPlayer.hMove = 0;
+	objPlayer.vMove = 0;
 	camPos(false);
 	
 	transition = true;
 }
-
-objPlayer.hMove = 0;
-objPlayer.vMove = 0;
 
 if image_index > 7 { instance_destroy(); exit; }
 

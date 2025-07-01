@@ -1,0 +1,1 @@
+snd = audio_play_sound(sndVFast, 10, true);
