@@ -17,10 +17,4 @@ if idleTimer <= 0
 
 var idleDone = idling && image_index >= image_number - 1;
 var idleCancel = !idling && sprite_index != sprMagnet;
-if idleDone || idleCancel
-{
-	sprite_index = sprMagnet;
-	image_index = charge;
-	idling = false;
-	idleTimer = irandom_range(120, 240);
-}
+if idleDone || idleCancel { idleEnd(); }

@@ -12,3 +12,5 @@ surplus = 1; //This will increase so you keep going faster
 idleTimer = irandom_range(120, 240);
 idling = false;
 charge = 0;
+
+inv = 0;

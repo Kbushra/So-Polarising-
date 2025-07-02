@@ -7,6 +7,7 @@
 #macro negative 1
 
 randomize();
+audio_master_gain(0);
 
 global.prevX = 0;
 global.prevY = 0;

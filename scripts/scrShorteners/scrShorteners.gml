@@ -36,4 +36,13 @@ function falseControls()
 	global.r = false;
 	global.u = false;
 	global.d = false;
+	global.space = false;
+}
+
+function idleEnd()
+{
+	sprite_index = sprMagnet;
+	image_index = charge;
+	idling = false;
+	idleTimer = irandom_range(120, 240);
 }

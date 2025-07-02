@@ -1,14 +1,10 @@
 if !idling { charge = image_index; }
 
-if keyboard_check_pressed(vk_space)
+if global.space
 {
 	charge = !charge;
 	audio_play_sound(sndSwitch, 10, false);
-	
-	sprite_index = sprMagnet;
-	image_index = charge;
-	idling = false;
-	idleTimer = irandom_range(120, 240);
+	idleEnd();
 }
 
 if align == -1
@@ -22,3 +18,6 @@ if align == -1
 	
 	if align == -1 { align = air; }
 }
+
+inv--;
+if inv > 0 { angle += 20; }
