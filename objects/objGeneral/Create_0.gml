@@ -13,6 +13,8 @@ global.prevY = 0;
 
 global.score = 0;
 
+global.hasMeat = false;
+
 global.hFastSnd = -1;
 
 room_goto(rmStart);

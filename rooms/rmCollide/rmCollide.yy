@@ -31,6 +31,8 @@
     {"name":"inst_7CE16FD8","path":"rooms/rmCollide/rmCollide.yy",},
     {"name":"inst_340B94F6","path":"rooms/rmCollide/rmCollide.yy",},
     {"name":"inst_1772183C","path":"rooms/rmCollide/rmCollide.yy",},
+    {"name":"inst_6975980D","path":"rooms/rmCollide/rmCollide.yy",},
+    {"name":"inst_377DF1","path":"rooms/rmCollide/rmCollide.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -45,6 +47,8 @@
         {"$GMRInstance":"v2","%Name":"inst_295BB26A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_295BB26A","objectId":{"name":"objMagnet","path":"objects/objMagnet/objMagnet.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":808.0,"y":297.0,},
         {"$GMRInstance":"v2","%Name":"inst_7CE16FD8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7CE16FD8","objectId":{"name":"objMagnet","path":"objects/objMagnet/objMagnet.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":293.0,"y":137.0,},
         {"$GMRInstance":"v2","%Name":"inst_340B94F6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_340B94F6","objectId":{"name":"objMagnet","path":"objects/objMagnet/objMagnet.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":762.0,"y":452.5,},
+        {"$GMRInstance":"v2","%Name":"inst_6975980D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6975980D","objectId":{"name":"objMeat","path":"objects/objMeat/objMeat.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":96.0,},
+        {"$GMRInstance":"v2","%Name":"inst_377DF1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_377DF1","objectId":{"name":"objFridge","path":"objects/objFridge/objFridge.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":416.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_20ED397A","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_20ED397A","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"sprFastH","path":"sprites/sprFastH/sprFastH.yy",},"x":224.0,"y":256.0,},

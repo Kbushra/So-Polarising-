@@ -35,6 +35,7 @@
     {"name":"inst_38E4EDF3","path":"rooms/rmMomentum/rmMomentum.yy",},
     {"name":"inst_561AF5","path":"rooms/rmMomentum/rmMomentum.yy",},
     {"name":"inst_64E7BE40","path":"rooms/rmMomentum/rmMomentum.yy",},
+    {"name":"inst_4671FF3B","path":"rooms/rmMomentum/rmMomentum.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -48,6 +49,7 @@
         {"$GMRInstance":"v2","%Name":"inst_7A22FBB3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7A22FBB3","objectId":{"name":"objCoin","path":"objects/objCoin/objCoin.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1250.0,"y":141.0,},
         {"$GMRInstance":"v2","%Name":"inst_36D4C4E1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_36D4C4E1","objectId":{"name":"objCoin","path":"objects/objCoin/objCoin.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":258.0,"y":174.0,},
         {"$GMRInstance":"v2","%Name":"inst_251D9A2B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_251D9A2B","objectId":{"name":"objMagnet","path":"objects/objMagnet/objMagnet.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":48.0,"y":44.0,},
+        {"$GMRInstance":"v2","%Name":"inst_4671FF3B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4671FF3B","objectId":{"name":"objYingYang","path":"objects/objYingYang/objYingYang.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":832.0,"y":256.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_49452897","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_49452897","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"sprNeutralH","path":"sprites/sprNeutralH/sprNeutralH.yy",},"x":224.0,"y":240.0,},

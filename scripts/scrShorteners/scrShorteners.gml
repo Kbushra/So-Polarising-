@@ -4,12 +4,28 @@ function camPos(lerp_)
 {
 	var clampX = clamp(objPlayer.x - 341.5, 0, room_width - 683);
 	var clampY = clamp(objPlayer.y - 192, 0, room_height - 384);
+	
+	var hBarrier = abs(objPlayer.hMove) - objPlayer.spd - 2;
+	var vBarrier = abs(objPlayer.vMove) - 7.8;
+	if hBarrier >= 0
+	{
+		clampX += hBarrier*sign(objPlayer.hMove)*150;
+		clampX = clamp(clampX, objPlayer.x - 683, objPlayer.x);
+	}
+	if vBarrier >= 0
+	{
+		clampY += vBarrier*sign(objPlayer.vMove)*150;
+		clampY = clamp(clampY, objPlayer.y - 384, objPlayer.y);
+	}
+	clampX = clamp(clampX, 0, room_width - 683);
+	clampY = clamp(clampY, 0, room_height - 384);
+	
 	if lerp_
 	{
 		var lerpX = lerp(camera_get_view_x(view_camera[0]), clampX, 0.1);
 		var lerpY = lerp(camera_get_view_y(view_camera[0]), clampY, 0.1);
 	}
-	else { var lerpX = clampX; var lerpY = clampY; }
+	else { lerpX = clampX; lerpY = clampY; }
 	
 	camera_set_view_pos(view_camera[0], lerpX, lerpY);
 }

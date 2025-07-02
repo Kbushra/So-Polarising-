@@ -2,7 +2,7 @@ with objPlayer
 {
 	for (var i = 2; i < other.range; i++)
 	{
-		if image_index != other.charge { break; }
+		if charge != other.charge { break; }
 		if place_meeting(x+i, y, other.id) //R wall
 		{
 			hMove += -other.strength/i;
