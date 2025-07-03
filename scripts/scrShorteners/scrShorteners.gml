@@ -46,3 +46,5 @@ function idleEnd()
 	idling = false;
 	idleTimer = irandom_range(120, 240);
 }
+
+function flash(len = 1, reps = 0) { instance_create_layer(x, y, "Instances", objFlash, { length: len, repeats: reps }) }

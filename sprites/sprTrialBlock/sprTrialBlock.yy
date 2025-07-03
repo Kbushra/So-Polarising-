@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Important",
-    "path":"folders/Sprites/Important.yy",
+    "name":"Surface",
+    "path":"folders/Sprites/Surface.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

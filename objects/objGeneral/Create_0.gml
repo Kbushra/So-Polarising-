@@ -5,9 +5,11 @@
 
 #macro positive 0
 #macro negative 1
+#macro off 0
+#macro on 1
 
 randomize();
-audio_master_gain(0);
+//audio_master_gain(0);
 
 global.prevX = 0;
 global.prevY = 0;

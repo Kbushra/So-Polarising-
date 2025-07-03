@@ -1,0 +1,1 @@
+timerFnt = font_add_sprite_ext(sprTimerFnt, "0123456789:", true, 2);
