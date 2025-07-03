@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"sprVFast",
   "bboxMode":2,
-  "bbox_bottom":8,
+  "bbox_bottom":13,
   "bbox_left":3,
   "bbox_right":28,
   "bbox_top":0,

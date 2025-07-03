@@ -1,5 +1,10 @@
-if place_meeting(x, y, objHFast) || place_meeting(x, y, objVFast)
-{ if sprite_index != deathSprite { sprite_index = deathSprite; global.score += 50; } }
+var collided = place_meeting(x, y, objHFast) || place_meeting(x, y, objVFast);
+if collided && sprite_index != deathSprite
+{
+	sprite_index = deathSprite;
+	global.score += 50;
+	audio_play_sound(sndEnemyKnock, 10, false);
+}
 
 if sprite_index == deathSprite
 {

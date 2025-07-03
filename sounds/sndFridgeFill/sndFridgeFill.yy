@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sndFridgeFill",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.4640136,
+  "name":"sndFridgeFill",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sndFridgeFill.mp3",
+  "type":0,
+  "volume":1.0,
+}
