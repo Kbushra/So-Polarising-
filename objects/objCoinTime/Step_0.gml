@@ -1,3 +1,5 @@
+if !visible { exit; }
+
 if place_meeting(x, y, objPlayer)
 {
 	global.score += 15;
@@ -6,5 +8,5 @@ if place_meeting(x, y, objPlayer)
 }
 
 time--;
-if time < 120 && time % 4 == 0 { visible = !visible; }
-if time <= 0 { instance_deactivate_object(id); }
+if time < 120 && time % 4 == 0 { image_alpha = !image_alpha; }
+if time <= 0 { visible = false; }

@@ -6,7 +6,7 @@ function camPos(lerp_)
 	var clampY = clamp(objPlayer.y - 192, 0, room_height - 384);
 	
 	var hBarrier = abs(objPlayer.hMove) - objPlayer.spd - 1.5;
-	var vBarrier = abs(objPlayer.vMove) - 7.8;
+	var vBarrier = objPlayer.vMove - 7.8;
 	if hBarrier >= 0
 	{
 		clampX += hBarrier*sign(objPlayer.hMove)*100;
@@ -14,7 +14,7 @@ function camPos(lerp_)
 	}
 	if vBarrier >= 0
 	{
-		clampY += vBarrier*sign(objPlayer.vMove)*100;
+		clampY += vBarrier*100;
 		clampY = clamp(clampY, objPlayer.y - 384, objPlayer.y);
 	}
 	clampX = clamp(clampX, 0, room_width - 683);

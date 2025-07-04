@@ -8,6 +8,7 @@
 #macro off 0
 #macro on 1
 
+if os_browser != browser_not_a_browser { window_set_size(1366, 768); }
 randomize();
 //audio_master_gain(0);
 
@@ -20,6 +21,8 @@ global.hasMeat = false;
 
 global.hFastSnd = -1;
 
-room_goto(rmStart);
+timeCoinsOn = false;
+
+room_goto(rmTutorialStart);
 objPlayer.x = 341.5;
 objPlayer.y = -64;

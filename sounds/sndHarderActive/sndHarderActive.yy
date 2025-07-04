@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"sndTrialActive",
+  "%Name":"sndHarderActive",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,7 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":2.6924944,
-  "name":"sndTrialActive",
+  "name":"sndHarderActive",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sndTrialActive.mp3",
+  "soundFile":"sndHarderActive.mp3",
   "type":0,
-  "volume":1.0,
+  "volume":0.5,
 }

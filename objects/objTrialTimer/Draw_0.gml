@@ -4,10 +4,10 @@ y = camera_get_view_y(view_camera[0]) + 16;
 
 draw_self();
 
-time -= 1/60;
-var minutes = time div 60;
+_time -= 1/60;
+var minutes = _time div 60;
 var formatMinutes = string(minutes);
-var seconds = floor(time - minutes*60);
+var seconds = floor(_time - minutes*60);
 var formatSeconds = seconds < 10 ? "0" : "";
 formatSeconds += string(seconds);
 

@@ -1,4 +1,4 @@
 transition = false;
-targRoom = rmStart;
+targRoom = rmTutorialStart;
 targX = 0;
 targY = 0;
