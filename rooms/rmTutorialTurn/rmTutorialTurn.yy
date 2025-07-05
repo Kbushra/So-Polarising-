@@ -33,7 +33,7 @@
         {"$GMRInstance":"v2","%Name":"inst_B654D20","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_B654D20","objectId":{"name":"objSurface","path":"objects/objSurface/objSurface.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":12.0,"x":544.0,"y":0.0,},
         {"$GMRInstance":"v2","%Name":"inst_576C5765","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_576C5765","objectId":{"name":"objSurface","path":"objects/objSurface/objSurface.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":19.0,"scaleY":4.0,"x":-64.0,"y":0.0,},
         {"$GMRInstance":"v2","%Name":"inst_35AAC852","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_35AAC852","objectId":{"name":"objDoor","path":"objects/objDoor/objDoor.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objDoor","path":"objects/objDoor/objDoor.yy",},"propertyId":{"name":"targX","path":"objects/objDoor/objDoor.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"80",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objDoor","path":"objects/objDoor/objDoor.yy",},"propertyId":{"name":"targX","path":"objects/objDoor/objDoor.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"112",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objDoor","path":"objects/objDoor/objDoor.yy",},"propertyId":{"name":"targY","path":"objects/objDoor/objDoor.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"32",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objDoor","path":"objects/objDoor/objDoor.yy",},"propertyId":{"name":"targRoom","path":"objects/objDoor/objDoor.yy",},"resource":{"name":"rmTutorialBackwards","path":"rooms/rmTutorialBackwards/rmTutorialBackwards.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rmTutorialBackwards",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.0,"scaleY":1.0,"x":416.0,"y":384.0,},
@@ -67,7 +67,7 @@
   "roomSettings":{
     "Height":384,
     "inheritRoomSettings":false,
-    "persistent":false,
+    "persistent":true,
     "Width":683,
   },
   "sequenceId":null,

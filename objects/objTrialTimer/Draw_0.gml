@@ -4,7 +4,10 @@ y = camera_get_view_y(view_camera[0]) + 16;
 
 draw_self();
 
+var prevTime = _time;
 _time -= 1/60;
+if prevTime % 1 < _time % 1 { global.score -= 5; }
+
 var minutes = _time div 60;
 var formatMinutes = string(minutes);
 var seconds = floor(_time - minutes*60);

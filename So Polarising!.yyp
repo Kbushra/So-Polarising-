@@ -88,6 +88,7 @@
     {"id":{"name":"rmTutorialBackwards","path":"rooms/rmTutorialBackwards/rmTutorialBackwards.yy",},},
     {"id":{"name":"rmTutorialCollide","path":"rooms/rmTutorialCollide/rmTutorialCollide.yy",},},
     {"id":{"name":"rmTutorialCorridor","path":"rooms/rmTutorialCorridor/rmTutorialCorridor.yy",},},
+    {"id":{"name":"rmTutorialEnd","path":"rooms/rmTutorialEnd/rmTutorialEnd.yy",},},
     {"id":{"name":"rmTutorialLoop","path":"rooms/rmTutorialLoop/rmTutorialLoop.yy",},},
     {"id":{"name":"rmTutorialMomentum","path":"rooms/rmTutorialMomentum/rmTutorialMomentum.yy",},},
     {"id":{"name":"rmTutorialStart","path":"rooms/rmTutorialStart/rmTutorialStart.yy",},},
@@ -126,6 +127,7 @@
     {"id":{"name":"sprFastH","path":"sprites/sprFastH/sprFastH.yy",},},
     {"id":{"name":"sprFlash","path":"sprites/sprFlash/sprFlash.yy",},},
     {"id":{"name":"sprFridge","path":"sprites/sprFridge/sprFridge.yy",},},
+    {"id":{"name":"sprGlow","path":"sprites/sprGlow/sprGlow.yy",},},
     {"id":{"name":"sprHarderButton","path":"sprites/sprHarderButton/sprHarderButton.yy",},},
     {"id":{"name":"sprHFast","path":"sprites/sprHFast/sprHFast.yy",},},
     {"id":{"name":"sprMag","path":"sprites/sprMag/sprMag.yy",},},
@@ -177,6 +179,7 @@
     {"roomId":{"name":"rmTutorialBackwards","path":"rooms/rmTutorialBackwards/rmTutorialBackwards.yy",},},
     {"roomId":{"name":"rmTutorialTurn","path":"rooms/rmTutorialTurn/rmTutorialTurn.yy",},},
     {"roomId":{"name":"rmTutorialLoop","path":"rooms/rmTutorialLoop/rmTutorialLoop.yy",},},
+    {"roomId":{"name":"rmTutorialEnd","path":"rooms/rmTutorialEnd/rmTutorialEnd.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

@@ -33,6 +33,9 @@ switch align
 		break;
 }
 
+if !place_free(x+sign(hMove), y) && !place_meeting(x+sign(hMove), y, objSurface) { hMove = 0; }
+if !place_free(x, y+sign(vMove)) && !place_meeting(x, y+sign(vMove), objSurface) { vMove = 0; }
+
 if vMove > 7.8 { if !instance_exists(objVFast) { instance_create_layer(x, y, "Instances", objVFast); } }
 else if instance_exists(objVFast) { instance_destroy(objVFast); }
 
