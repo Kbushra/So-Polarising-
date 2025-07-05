@@ -37,6 +37,7 @@
     {"name":"inst_78FF1A45","path":"rooms/rmTutorialBackwards/rmTutorialBackwards.yy",},
     {"name":"inst_3F5E3796","path":"rooms/rmTutorialBackwards/rmTutorialBackwards.yy",},
     {"name":"inst_5D8F5531","path":"rooms/rmTutorialBackwards/rmTutorialBackwards.yy",},
+    {"name":"inst_43775F37","path":"rooms/rmTutorialBackwards/rmTutorialBackwards.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -99,6 +100,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objDoor","path":"objects/objDoor/objDoor.yy",},"propertyId":{"name":"targY","path":"objects/objDoor/objDoor.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"144",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objDoor","path":"objects/objDoor/objDoor.yy",},"propertyId":{"name":"targRoom","path":"objects/objDoor/objDoor.yy",},"resource":{"name":"rmTutorialLoop","path":"rooms/rmTutorialLoop/rmTutorialLoop.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rmTutorialLoop",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":3.0,"x":-64.0,"y":320.0,},
+        {"$GMRInstance":"v2","%Name":"inst_43775F37","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_43775F37","objectId":{"name":"objDeathTrig","path":"objects/objDeathTrig/objDeathTrig.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.0,"scaleY":1.0,"x":64.0,"y":768.0,},
       ],"layers":[],"name":"Surfaces","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Deco","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_58A7D447","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_58A7D447","objectId":{"name":"objCog","path":"objects/objCog/objCog.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":128.0,},

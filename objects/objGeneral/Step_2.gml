@@ -9,3 +9,10 @@ if global.hFastSnd != -1 && !instance_exists(objHFast)
 timeCoinsOn = false;
 with objCoinTime { if visible { other.timeCoinsOn = true; break; } }
 if !timeCoinsOn && audio_is_playing(sndTickFast) { audio_stop_sound(sndTickFast); }
+
+if !instance_exists(objVFast) && audio_is_playing(sndVFast) { audio_stop_sound(sndVFast); }
+
+if room_persistent && !array_contains(global.rmCount, room)
+{ global.rmCount[array_length(global.rmCount)] = room; }
+
+if global.inHub { global.score = 0; }

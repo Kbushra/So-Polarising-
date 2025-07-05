@@ -1,4 +1,4 @@
-depth = objPlayer.depth + 1.5;
+depth = objPlayer.depth + 3;
 image_index = collision_rectangle(x-96,y-96,x+96,y+96,objPlayer,false,true) != noone && !instance_exists(objTrialTimer);
 
 if place_meeting(x, y, objPlayer) && !instance_exists(objTrialTimer)

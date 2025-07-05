@@ -7,6 +7,7 @@ if image_index > 3 && !transition
 	objPlayer.y = targY;
 	global.prevX = targX;
 	global.prevY = targY;
+	if toggleHub { global.inHub = !global.inHub; }
 	
 	transition = true;
 }

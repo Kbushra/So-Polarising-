@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sprFlash",
-    "path":"sprites/sprFlash/sprFlash.yy",
+    "name":"sprWhite",
+    "path":"sprites/sprWhite/sprWhite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

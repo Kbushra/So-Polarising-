@@ -1,0 +1,1 @@
+depth = objEnd.depth - 1;
