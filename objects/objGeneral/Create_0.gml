@@ -23,13 +23,13 @@ global.score = 0;
 global.hasMeat = false;
 
 global.hFastSnd = -1;
+global.mus = -1;
 
 timeCoinsOn = false;
 
 global.hubX = 336;
 global.hubY = -32;
 global.hubRm = rmHubTutorial;
-global.hubMap = 0;
 
 global.mapCount = 1;
 
@@ -47,6 +47,7 @@ global.mapRank[0,4] = 9500; //S
 
 if !file_exists("Polarising.ini")
 {
+	global.hubMap = 0;
 	global.inHub = false;
 	room_goto(rmTutorialStart);
 	objPlayer.x = 341;
@@ -54,6 +55,7 @@ if !file_exists("Polarising.ini")
 }
 else
 {
+	global.hubMap = -1;
 	global.inHub = true;
 	room_goto(rmHubEntrance);
 	objPlayer.x = 160;

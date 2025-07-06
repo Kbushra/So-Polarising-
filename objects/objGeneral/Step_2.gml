@@ -8,7 +8,11 @@ if global.hFastSnd != -1 && !instance_exists(objHFast)
 
 timeCoinsOn = false;
 with objCoinTime { if visible { other.timeCoinsOn = true; break; } }
-if !timeCoinsOn && audio_is_playing(sndTickFast) { audio_stop_sound(sndTickFast); }
+if !timeCoinsOn && audio_is_playing(sndTickFast)
+{
+	audio_stop_sound(sndTickFast);
+	audio_resume_sound(global.mus);
+}
 
 if !instance_exists(objVFast) && audio_is_playing(sndVFast) { audio_stop_sound(sndVFast); }
 

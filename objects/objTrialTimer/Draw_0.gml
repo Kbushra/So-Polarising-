@@ -1,4 +1,4 @@
-if room == rmHubTutorial { instance_destroy(); exit; }
+if room == global.hubRm { instance_destroy(); exit; }
 
 depth = -9998;
 x = camera_get_view_x(view_camera[0]) + 341.5;

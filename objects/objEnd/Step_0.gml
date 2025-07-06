@@ -3,6 +3,9 @@ if fadeIn { image_alpha += 0.01; } else { image_alpha -= 0.05; }
 x = camera_get_view_x(view_camera[0]);
 y = camera_get_view_y(view_camera[0]);
 
+if global.mus != -1 && audio_sound_get_gain(global.mus) <= 0.01
+{ audio_stop_sound(global.mus); global.mus = -1; }
+
 image_alpha = clamp(image_alpha, 0, 1);
 
 if image_alpha >= 1 && fadeIn

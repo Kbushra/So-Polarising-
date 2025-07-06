@@ -1,6 +1,9 @@
 image_alpha = 0;
 fadeIn = true;
 
+if os_browser == browser_not_a_browser { audio_sound_gain(global.mus, 0, 500); }
+else { audio_stop_sound(global.mus); global.mus = -1; }
+
 function returnToHub()
 {
 	fadeIn = false;
@@ -15,4 +18,5 @@ function returnToHub()
 	objPlayer.x = global.hubX;
 	objPlayer.y = global.hubY;
 	global.inHub = true;
+	global.hubMap = -1;
 }
