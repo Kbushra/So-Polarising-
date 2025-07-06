@@ -120,6 +120,7 @@
     {"id":{"name":"sndFridgeFill","path":"sounds/sndFridgeFill/sndFridgeFill.yy",},},
     {"id":{"name":"sndHarderActive","path":"sounds/sndHarderActive/sndHarderActive.yy",},},
     {"id":{"name":"sndHFast","path":"sounds/sndHFast/sndHFast.yy",},},
+    {"id":{"name":"sndHit","path":"sounds/sndHit/sndHit.yy",},},
     {"id":{"name":"sndIdle1","path":"sounds/sndIdle1/sndIdle1.yy",},},
     {"id":{"name":"sndIdle2","path":"sounds/sndIdle2/sndIdle2.yy",},},
     {"id":{"name":"sndMeatCollect","path":"sounds/sndMeatCollect/sndMeatCollect.yy",},},

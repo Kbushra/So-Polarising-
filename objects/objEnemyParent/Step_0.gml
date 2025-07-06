@@ -20,10 +20,12 @@ if place_meeting(x, y, objPlayer) && objPlayer.inv <= 0
 {
 	with objPlayer
 	{
+		audio_play_sound(sndHit, 10, false);
+		global.score -= 100;
+		
 		if abs(hMove) > 0.1 { hMove *= -1.5; } else { hMove = -5; }
 		if abs(vMove) > 0.1 { vMove *= -1.5; } else { vMove = -5; }
 		vMove = clamp(vMove, -4, 4);
-		global.score -= 100;
 		inv = 60;
 		idleEnd();
 	}
