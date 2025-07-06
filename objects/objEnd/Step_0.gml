@@ -15,8 +15,8 @@ if image_alpha >= 1 && fadeIn
 	if !fail { returnToHub(); }
 	else if !instance_exists(objFail)
 	{
-		instance_create_layer(x+341.5, y+192, "Instances", objFail);
-		alarm[0] = 120;
+		instance_create_layer(x, y, "Instances", objFail);
+		alarm[0] = 240;
 	}
 }
 
