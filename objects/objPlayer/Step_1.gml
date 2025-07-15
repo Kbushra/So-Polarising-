@@ -20,4 +20,5 @@ if align == -1
 }
 
 inv--;
+if inv >= 45 { camShake(0.5); }
 if inv > 0 { angle += 20; }

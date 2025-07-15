@@ -4,12 +4,15 @@ if collided && sprite_index != deathSprite
 	sprite_index = deathSprite;
 	global.score += 50;
 	audio_play_sound(sndEnemyKnock, 10, false);
+	camShake();
 }
 
 if sprite_index == deathSprite
 {
+	if ySpd < 1 { camShake(); }
+	
 	image_angle += 5;
-	ySpd += acc;
+	ySpd += 0.1;
 	y += ySpd;
 	if y >= room_height + sprite_height { instance_destroy(); }
 	

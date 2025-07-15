@@ -3,7 +3,7 @@ image_index = collision_rectangle(x-96,y-96,x+96,y+96,objPlayer,false,true) != n
 
 if place_meeting(x, y, objPlayer) && !done
 {
-	objTrialTimer._time *= 0.6;
+	objTrialTimer._time *= magnifier;
 	global.score += 3000;
 	audio_play_sound(sndHarderActive, 10, false);
 	

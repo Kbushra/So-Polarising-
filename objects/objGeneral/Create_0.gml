@@ -32,10 +32,16 @@ global.hubY = -32;
 global.hubRm = rmHubTutorial;
 
 global.mapCount = 1;
+global.progressCount = 1;
 
 ini_open("Polarising.ini");
 for (var i = 0; i < global.mapCount; i++)
 { global.mapScore[i] = ini_read_real("Scores", $"Map Score {i+1}", -1); }
+for (var i = 0; i < global.progressCount; i++)
+{
+	global.progress[i] = ini_read_real("Progress", $"Progression {i+1}", false);
+	global.unlocked[i] = false;
+}
 ini_close();
 
 global.mapName[0] = "Tutorial";

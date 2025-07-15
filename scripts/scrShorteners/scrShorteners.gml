@@ -31,6 +31,12 @@ function camPos(lerp_)
 	camera_set_view_pos(view_camera[0], lerpX, lerpY);
 }
 
+function camShake(intensity = 1)
+{
+	camera_set_view_pos(view_camera[0], camera_get_view_x(view_camera[0]) + choose(-intensity, intensity),
+		camera_get_view_y(view_camera[0]) + choose(-intensity, intensity));
+}
+
 function falseControls()
 {
 	global.l = false;

@@ -21,7 +21,7 @@
     {"name":"inst_26782289","path":"rooms/rmHubTutorial/rmHubTutorial.yy",},
     {"name":"inst_16CBD8ED","path":"rooms/rmHubTutorial/rmHubTutorial.yy",},
     {"name":"inst_79F1B63","path":"rooms/rmHubTutorial/rmHubTutorial.yy",},
-    {"name":"inst_443CF571","path":"rooms/rmHubTutorial/rmHubTutorial.yy",},
+    {"name":"inst_63BE4CE4","path":"rooms/rmHubTutorial/rmHubTutorial.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -59,9 +59,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objDoor","path":"objects/objDoor/objDoor.yy",},"propertyId":{"name":"targY","path":"objects/objDoor/objDoor.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"304",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objDoor","path":"objects/objDoor/objDoor.yy",},"propertyId":{"name":"targRoom","path":"objects/objDoor/objDoor.yy",},"resource":{"name":"rmHubEntrance","path":"rooms/rmHubEntrance/rmHubEntrance.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rmHubEntrance",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":3.0,"x":-64.0,"y":224.0,},
-        {"$GMRInstance":"v2","%Name":"inst_443CF571","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_443CF571","objectId":{"name":"objTrialBlock","path":"objects/objTrialBlock/objTrialBlock.yy",},"properties":[
-            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objTrialBlock","path":"objects/objTrialBlock/objTrialBlock.yy",},"propertyId":{"name":"normal","path":"objects/objTrialBlock/objTrialBlock.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"on",},
-          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":240.0,},
+        {"$GMRInstance":"v2","%Name":"inst_63BE4CE4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_63BE4CE4","objectId":{"name":"objPadlock","path":"objects/objPadlock/objPadlock.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":240.0,},
       ],"layers":[],"name":"Surfaces","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Deco","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_298C6AA6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_298C6AA6","objectId":{"name":"objCog","path":"objects/objCog/objCog.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":160.0,},
