@@ -31,8 +31,8 @@ global.hubX = 336;
 global.hubY = -32;
 global.hubRm = rmHubTutorial;
 
-global.mapCount = 1;
-global.progressCount = 1;
+global.mapCount = 2;
+global.progressCount = 2;
 
 ini_open("Polarising.ini");
 for (var i = 0; i < global.mapCount; i++)
@@ -50,6 +50,13 @@ global.mapRank[0,1] = 2500; //C
 global.mapRank[0,2] = 5000; //B
 global.mapRank[0,3] = 7500; //A
 global.mapRank[0,4] = 9500; //S
+
+global.mapName[1] = "Electro Waters";
+global.mapRank[1,0] = 1000; //D
+global.mapRank[1,1] = 2500; //C
+global.mapRank[1,2] = 5000; //B
+global.mapRank[1,3] = 7500; //A
+global.mapRank[1,4] = 9500; //S
 
 if !file_exists("Polarising.ini")
 {

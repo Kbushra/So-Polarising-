@@ -9,8 +9,8 @@
   "name":"objVFast",
   "overriddenProperties":[],
   "parent":{
-    "name":"Important",
-    "path":"folders/Objects/Important.yy",
+    "name":"Player",
+    "path":"folders/Objects/Player.yy",
   },
   "parentObjectId":null,
   "persistent":false,

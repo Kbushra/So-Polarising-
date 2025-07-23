@@ -9,8 +9,8 @@
   "name":"objDeath",
   "overriddenProperties":[],
   "parent":{
-    "name":"Important",
-    "path":"folders/Objects/Important.yy",
+    "name":"Transitions",
+    "path":"folders/Objects/Transitions.yy",
   },
   "parentObjectId":null,
   "persistent":true,

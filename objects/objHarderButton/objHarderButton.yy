@@ -9,8 +9,8 @@
   "name":"objHarderButton",
   "overriddenProperties":[],
   "parent":{
-    "name":"Important",
-    "path":"folders/Objects/Important.yy",
+    "name":"Time trial",
+    "path":"folders/Objects/Time trial.yy",
   },
   "parentObjectId":null,
   "persistent":false,

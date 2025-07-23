@@ -33,8 +33,8 @@
   "nineSlice":null,
   "origin":1,
   "parent":{
-    "name":"Important",
-    "path":"folders/Sprites/Important.yy",
+    "name":"Time Trial",
+    "path":"folders/Sprites/Time Trial.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

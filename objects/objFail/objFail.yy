@@ -9,8 +9,8 @@
   "name":"objFail",
   "overriddenProperties":[],
   "parent":{
-    "name":"Ending",
-    "path":"folders/Objects/Ending.yy",
+    "name":"Transitions",
+    "path":"folders/Objects/Transitions.yy",
   },
   "parentObjectId":null,
   "persistent":false,

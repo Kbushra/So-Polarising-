@@ -1,0 +1,1 @@
+global.boosted = false; //Only one bubble does a boost

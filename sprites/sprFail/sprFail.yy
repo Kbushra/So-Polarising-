@@ -46,8 +46,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Ending",
-    "path":"folders/Sprites/Ending.yy",
+    "name":"Transitions",
+    "path":"folders/Sprites/Transitions.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

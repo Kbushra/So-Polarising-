@@ -32,8 +32,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Important",
-    "path":"folders/Sprites/Important.yy",
+    "name":"Transitions",
+    "path":"folders/Sprites/Transitions.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

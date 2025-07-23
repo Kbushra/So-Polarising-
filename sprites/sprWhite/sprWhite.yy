@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Deco",
-    "path":"folders/Sprites/Deco.yy",
+    "name":"Transitions",
+    "path":"folders/Sprites/Transitions.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
