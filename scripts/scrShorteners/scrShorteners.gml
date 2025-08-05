@@ -2,25 +2,18 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function camPos(lerp_)
 {
-	var clampX = clamp(objPlayer.x - 341.5, 0, room_width - 683);
-	var clampY = clamp(objPlayer.y - 192, 0, room_height - 384);
+	var centreX = objPlayer.x - 341.5;
+	var centreY = objPlayer.y - 192;
+	
+	if lerp_ { centreX += global.xOffset; centreY += global.yOffset; }
+	
+	var clampX = clamp(centreX, 0, room_width - 683);
+	var clampY = clamp(centreY, 0, room_height - 384);
+	
+	if clamp(objPlayer.x - 341.5, 0, room_width - 683) != objPlayer.x - 341.5 { global.xOffset = 0; }
+	if clamp(objPlayer.y - 192, 0, room_height - 384) != objPlayer.y - 192 { global.yOffset = 0; }
 	
 	if !lerp_ { var lerpX = clampX; var lerpY = clampY; }
-	
-	var hBarrier = abs(objPlayer.hMove) - objPlayer.spd - 1.5;
-	var vBarrier = objPlayer.vMove - 7.8;
-	if hBarrier >= 0
-	{
-		clampX += hBarrier*sign(objPlayer.hMove)*100;
-		clampX = clamp(clampX, objPlayer.x - 683, objPlayer.x);
-	}
-	if vBarrier >= 0
-	{
-		clampY += vBarrier*20;
-		clampY = clamp(clampY, objPlayer.y - 384, objPlayer.y);
-	}
-	clampX = clamp(clampX, 0, room_width - 683);
-	clampY = clamp(clampY, 0, room_height - 384);
 	
 	if lerp_
 	{

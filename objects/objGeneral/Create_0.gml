@@ -16,6 +16,10 @@ else { audio_master_gain(0.6); }
 global.prevX = 0;
 global.prevY = 0;
 
+//Camera lag
+global.xOffset = 0;
+global.yOffset = 0;
+
 global.rmCount = [];
 
 global.score = 0;
@@ -74,3 +78,10 @@ else
 	objPlayer.x = 160;
 	objPlayer.y = -32;
 }
+
+/*
+global.hubMap = 0;
+global.inHub = false;
+room_goto(rmCameraTest);
+objPlayer.x = 0;
+objPlayer.y = 0;

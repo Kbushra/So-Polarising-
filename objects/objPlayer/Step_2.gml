@@ -84,6 +84,19 @@ else
 	y += vMove;
 }
 
+if global.r || global.l { global.xOffset += sign(hMove)*1.5; }
+else { global.xOffset = lerp(global.xOffset, 0, 0.2); }
+
+if sign(global.xOffset) != sign(hMove) { global.xOffset = lerp(global.xOffset, 0, 0.2); }
+
+if global.d || global.u || align == air { global.yOffset += sign(vMove)*1.5; }
+else { global.yOffset = lerp(global.yOffset, 0, 0.2); }
+
+if sign(global.yOffset) != sign(vMove) { global.yOffset = lerp(global.yOffset, 0, 0.2); }
+
+global.xOffset = clamp(global.xOffset, -360, 360);
+global.yOffset = clamp(global.yOffset, -250, 250);
+
 if hMove != 0 { angle += hMove * -spd/2; }
 else { angle += vMove * -spd/2; }
 
