@@ -13,8 +13,7 @@ switch align
 {
 	case air:
 		hMove = lerp(hMove, (global.r-global.l)*spd*surplus, 0.1);
-		vMove += grav;
-		vMove = clamp(vMove, -10, 10);
+		if vMove < 10 { vMove += grav; }
 		break;
 	
 	case horizontal:

@@ -1,6 +1,5 @@
 if sprite_index == sprBubbleRespawn
 {
-	
 	if image_index >= 2 && image_index < 3 && image_speed != 0
 	{
 		image_speed = 0;
@@ -21,7 +20,7 @@ switch dir
 	
 	case 90:
 		objPlayer.vMove -= strength;
-		if objPlayer.vMove > -strength/2 { objPlayer.vMove = -strength/2; }
+		if objPlayer.vMove > -strength { objPlayer.vMove = -strength; }
 		break;
 	
 	case 180:
@@ -31,7 +30,7 @@ switch dir
 	
 	case 270:
 		objPlayer.vMove += strength;
-		if objPlayer.vMove < strength/2 { objPlayer.vMove = strength/2; }
+		if objPlayer.vMove < strength { objPlayer.vMove = strength; }
 		break;
 }
 

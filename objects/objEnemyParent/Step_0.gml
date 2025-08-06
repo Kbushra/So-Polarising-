@@ -1,5 +1,5 @@
 var collided = place_meeting(x, y, objHFast) || place_meeting(x, y, objVFast);
-if collided && sprite_index != deathSprite
+if collided && sprite_index != deathSprite && dies
 {
 	sprite_index = deathSprite;
 	global.score += 50;
