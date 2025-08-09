@@ -1,0 +1,1 @@
+if sprite_index != sprBubbleRespawn && enter { objPlayer.align = horiverti; }

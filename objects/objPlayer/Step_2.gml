@@ -32,6 +32,9 @@ switch align
 		break;
 }
 
+//If softlocked (unlikely), dont do any collisions or anything at all
+if !place_free(x, y) { exit; }
+
 if !place_free(x+sign(hMove), y) && !place_meeting(x+sign(hMove), y, objSurface) { hMove = 0; }
 if !place_free(x, y+sign(vMove)) && !place_meeting(x, y+sign(vMove), objSurface) { vMove = 0; }
 

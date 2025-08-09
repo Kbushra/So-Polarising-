@@ -11,7 +11,10 @@
     "name":"Surfaces",
     "path":"folders/Objects/Surfaces.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"objTrigParent",
+    "path":"objects/objTrigParent/objTrigParent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

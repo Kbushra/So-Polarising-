@@ -6,6 +6,8 @@
   "name":"objBush",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemyParent","path":"objects/objEnemyParent/objEnemyParent.yy",},"propertyId":{"name":"deathSprite","path":"objects/objEnemyParent/objEnemyParent.yy",},"resource":{"name":"sprBushD","path":"sprites/sprBushD/sprBushD.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprBushD",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemyParent","path":"objects/objEnemyParent/objEnemyParent.yy",},"propertyId":{"name":"hitbox","path":"objects/objEnemyParent/objEnemyParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprBush",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objEnemyParent","path":"objects/objEnemyParent/objEnemyParent.yy",},"propertyId":{"name":"hurtbox","path":"objects/objEnemyParent/objEnemyParent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"sprBush",},
   ],
   "parent":{
     "name":"Enemies",

@@ -1,0 +1,1 @@
+if global.debug && keyboard_check_pressed(ord("G")) { visible = !visible; }

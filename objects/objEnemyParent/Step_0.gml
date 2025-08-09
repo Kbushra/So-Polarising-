@@ -1,3 +1,5 @@
+mask_index = hitbox;
+
 var collided = place_meeting(x, y, objHFast) || place_meeting(x, y, objVFast);
 if collided && sprite_index != deathSprite && dies
 {
@@ -19,6 +21,8 @@ if sprite_index == deathSprite
 	exit;
 }
 
+mask_index = hurtbox;
+
 if place_meeting(x, y, objPlayer) && objPlayer.inv <= 0
 {
 	with objPlayer
@@ -33,3 +37,5 @@ if place_meeting(x, y, objPlayer) && objPlayer.inv <= 0
 		idleEnd();
 	}
 }
+
+mask_index = hitbox;
