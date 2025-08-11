@@ -13,7 +13,7 @@ if os_browser != browser_not_a_browser { window_set_size(1366, 768); audio_maste
 else { audio_master_gain(0.6); }
 //audio_master_gain(0);
 
-global.debug = true;
+global.debug = false;
 
 global.prevX = 0;
 global.prevY = 0;

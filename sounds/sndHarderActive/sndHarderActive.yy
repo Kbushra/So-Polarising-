@@ -12,8 +12,8 @@
   "duration":2.6924944,
   "name":"sndHarderActive",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Score",
+    "path":"folders/Sounds/Score.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

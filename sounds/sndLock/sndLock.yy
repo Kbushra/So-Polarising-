@@ -12,8 +12,8 @@
   "duration":0.6240136,
   "name":"sndLock",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"General",
+    "path":"folders/Sounds/General.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

@@ -1,0 +1,1 @@
+if objPlayer.charge == negative { shader_set(shWavy); }

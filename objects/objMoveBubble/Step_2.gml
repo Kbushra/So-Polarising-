@@ -18,8 +18,15 @@ if !enter && place_meeting(x, y, objPlayer)
 
 if enter
 {
+	if !audio_is_playing(sndInBubble) { audio_play_sound(sndInBubble, 10, true); }
 	x = objPlayer.x;
 	y = objPlayer.y;
 }
 
-if !place_free(x, y) { image_index = 0; sprite_index = sprBubbleRespawn2; }
+if !place_free(x, y)
+{
+	image_index = 0;
+	sprite_index = sprBubbleRespawn2;
+	audio_play_sound(sndPop, 10, false);
+	audio_stop_sound(sndInBubble);
+}

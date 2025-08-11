@@ -12,8 +12,8 @@
   "duration":46.104015,
   "name":"sndTickFast",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"General",
+    "path":"folders/Sounds/General.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

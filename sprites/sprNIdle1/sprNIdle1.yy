@@ -36,7 +36,7 @@
   "origin":9,
   "parent":{
     "name":"Idle",
-    "path":"folders/Sprites/Idle.yy",
+    "path":"folders/Sprites/Player/Idle.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -74,7 +74,7 @@
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
     "seqHeight":32.0,
-    "seqWidth":36.0,
+    "seqWidth":32.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,

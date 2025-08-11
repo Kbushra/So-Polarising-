@@ -12,8 +12,8 @@
   "duration":1.8240136,
   "name":"sndPowerDown",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Player",
+    "path":"folders/Sounds/Player.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

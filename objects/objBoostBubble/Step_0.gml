@@ -39,3 +39,5 @@ objPlayer.align = air;
 global.boosted = true;
 image_index = 0;
 sprite_index = sprBubbleRespawn;
+
+audio_play_sound(sndPop, 10, false);

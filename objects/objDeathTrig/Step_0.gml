@@ -1,4 +1,4 @@
-if place_meeting(x, y, objPlayer)
+if place_meeting(x, y, objPlayer) && active
 {
 	if !hit && !instance_exists(objDeath)
 	{

@@ -12,8 +12,8 @@
   "duration":0.18285714,
   "name":"sndCollect",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Score",
+    "path":"folders/Sounds/Score.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

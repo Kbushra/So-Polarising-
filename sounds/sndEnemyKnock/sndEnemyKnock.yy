@@ -12,8 +12,8 @@
   "duration":0.3185941,
   "name":"sndEnemyKnock",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Player",
+    "path":"folders/Sounds/Player.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

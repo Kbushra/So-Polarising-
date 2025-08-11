@@ -1,4 +1,4 @@
 event_inherited();
 
-dir = -1;
-alarm[0] = 30;
+dir = -image_xscale;
+alarm[0] = delay/2;

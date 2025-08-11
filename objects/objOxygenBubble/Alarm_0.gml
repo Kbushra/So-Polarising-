@@ -1,2 +1,2 @@
 enter = true;
-instance_deactivate_object(objDeathTrig);
+with objDeathTrig { active = false; }

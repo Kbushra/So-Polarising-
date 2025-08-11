@@ -42,7 +42,7 @@
     ],
     "top":2,
   },
-  "origin":4,
+  "origin":7,
   "parent":{
     "name":"Surface",
     "path":"folders/Sprites/Surface.yy",
@@ -97,7 +97,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":16,
-    "yorigin":16,
+    "yorigin":32,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

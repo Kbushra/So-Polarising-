@@ -52,6 +52,7 @@
     {"name":"inst_411C2CD9","path":"rooms/rmTutorialAcid/rmTutorialAcid.yy",},
     {"name":"inst_377C1EF9","path":"rooms/rmTutorialAcid/rmTutorialAcid.yy",},
     {"name":"inst_3421232D","path":"rooms/rmTutorialAcid/rmTutorialAcid.yy",},
+    {"name":"inst_6BAB8560","path":"rooms/rmTutorialAcid/rmTutorialAcid.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -156,6 +157,10 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objSurface","path":"objects/objSurface/objSurface.yy",},"propertyId":{"name":"charge","path":"objects/objSurface/objSurface.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"positive",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objSurface","path":"objects/objSurface/objSurface.yy",},"propertyId":{"name":"strength","path":"objects/objSurface/objSurface.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.5",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":4.0,"scaleY":2.0,"x":512.0,"y":704.0,},
+        {"$GMRInstance":"v2","%Name":"inst_6BAB8560","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6BAB8560","objectId":{"name":"objCheckpoint","path":"objects/objCheckpoint/objCheckpoint.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objCheckpoint","path":"objects/objCheckpoint/objCheckpoint.yy",},"propertyId":{"name":"newX","path":"objects/objCheckpoint/objCheckpoint.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"768",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objCheckpoint","path":"objects/objCheckpoint/objCheckpoint.yy",},"propertyId":{"name":"newY","path":"objects/objCheckpoint/objCheckpoint.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"304",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":7.0,"x":768.0,"y":320.0,},
       ],"layers":[],"name":"Surfaces","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Deco","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_69EBD7E9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_69EBD7E9","objectId":{"name":"objCogSm","path":"objects/objCogSm/objCogSm.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":384.0,},

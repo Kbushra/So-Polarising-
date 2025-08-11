@@ -4,7 +4,7 @@ var collided = place_meeting(x, y, objHFast) || place_meeting(x, y, objVFast);
 if collided && sprite_index != deathSprite && dies
 {
 	sprite_index = deathSprite;
-	global.score += 50;
+	global.score += worth;
 	audio_play_sound(sndEnemyKnock, 10, false);
 	camShake();
 }

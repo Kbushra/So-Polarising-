@@ -64,6 +64,7 @@
     {"name":"inst_E979D0E","path":"rooms/rmTutorialZigzag/rmTutorialZigzag.yy",},
     {"name":"inst_433AF9F1","path":"rooms/rmTutorialZigzag/rmTutorialZigzag.yy",},
     {"name":"inst_772BC94D","path":"rooms/rmTutorialZigzag/rmTutorialZigzag.yy",},
+    {"name":"inst_A7DF625","path":"rooms/rmTutorialZigzag/rmTutorialZigzag.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -179,6 +180,10 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objDoor","path":"objects/objDoor/objDoor.yy",},"propertyId":{"name":"targY","path":"objects/objDoor/objDoor.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"240",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":4.0,"x":1408.0,"y":416.0,},
         {"$GMRInstance":"v2","%Name":"inst_2FEB2EC6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2FEB2EC6","objectId":{"name":"objNeutral","path":"objects/objNeutral/objNeutral.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":6.0,"scaleY":2.0,"x":1152.0,"y":704.0,},
+        {"$GMRInstance":"v2","%Name":"inst_A7DF625","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_A7DF625","objectId":{"name":"objCheckpoint","path":"objects/objCheckpoint/objCheckpoint.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objCheckpoint","path":"objects/objCheckpoint/objCheckpoint.yy",},"propertyId":{"name":"newX","path":"objects/objCheckpoint/objCheckpoint.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1184",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objCheckpoint","path":"objects/objCheckpoint/objCheckpoint.yy",},"propertyId":{"name":"newY","path":"objects/objCheckpoint/objCheckpoint.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"528",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":16.0,"x":1184.0,"y":544.0,},
       ],"layers":[],"name":"Surfaces","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Deco","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_7EE50BB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7EE50BB","objectId":{"name":"objCogSm","path":"objects/objCogSm/objCogSm.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":32.0,},

@@ -12,8 +12,8 @@
   "duration":1.4640136,
   "name":"sndFridgeFill",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Score",
+    "path":"folders/Sounds/Score.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

@@ -38,6 +38,7 @@
     {"name":"inst_4671FF3B","path":"rooms/rmTutorialMomentum/rmTutorialMomentum.yy",},
     {"name":"inst_6A957145","path":"rooms/rmTutorialMomentum/rmTutorialMomentum.yy",},
     {"name":"inst_399E841E","path":"rooms/rmTutorialMomentum/rmTutorialMomentum.yy",},
+    {"name":"inst_1A8EBCD0","path":"rooms/rmTutorialMomentum/rmTutorialMomentum.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -98,6 +99,10 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":3.0,"x":1408.0,"y":224.0,},
         {"$GMRInstance":"v2","%Name":"inst_6A957145","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6A957145","objectId":{"name":"objNeutral","path":"objects/objNeutral/objNeutral.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":2.0,"x":1344.0,"y":160.0,},
         {"$GMRInstance":"v2","%Name":"inst_399E841E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_399E841E","objectId":{"name":"objNeutral","path":"objects/objNeutral/objNeutral.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":2.0,"x":1344.0,"y":320.0,},
+        {"$GMRInstance":"v2","%Name":"inst_1A8EBCD0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1A8EBCD0","objectId":{"name":"objCheckpoint","path":"objects/objCheckpoint/objCheckpoint.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objCheckpoint","path":"objects/objCheckpoint/objCheckpoint.yy",},"propertyId":{"name":"newX","path":"objects/objCheckpoint/objCheckpoint.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1312",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"objCheckpoint","path":"objects/objCheckpoint/objCheckpoint.yy",},"propertyId":{"name":"newY","path":"objects/objCheckpoint/objCheckpoint.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"304",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":10.0,"x":1312.0,"y":320.0,},
       ],"layers":[],"name":"Surfaces","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Deco","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_68F5A7BD_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_68F5A7BD_1","objectId":{"name":"objCogSm","path":"objects/objCogSm/objCogSm.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":224.0,},
