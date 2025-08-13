@@ -27,5 +27,7 @@ if enter
 		sprite_index = sprBubbleRespawn2;
 		audio_play_sound(sndPop, 10, false);
 		audio_stop_sound(sndInBubble);
+		
+		with objDeathTrig { active = true; }
 	}
 }
