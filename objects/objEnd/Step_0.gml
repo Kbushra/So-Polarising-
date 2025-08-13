@@ -3,6 +3,8 @@ if fadeIn { image_alpha += 0.01; } else { image_alpha -= 0.05; }
 x = camera_get_view_x(view_camera[0]);
 y = camera_get_view_y(view_camera[0]);
 
+global.optionsEnable = false;
+
 if global.mus != -1 && audio_sound_get_gain(global.mus) <= 0.01
 { audio_stop_sound(global.mus); global.mus = -1; }
 
@@ -23,4 +25,4 @@ if image_alpha >= 1 && fadeIn
 	}
 }
 
-if image_alpha <= 0 && !fadeIn { instance_destroy(); }
+if image_alpha <= 0 && !fadeIn { instance_destroy(); global.optionsEnable = true; }

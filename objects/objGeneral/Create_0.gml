@@ -9,6 +9,8 @@
 #macro on 1
 
 randomize();
+audio_group_load(audiogroup_options);
+
 if os_browser != browser_not_a_browser { window_set_size(1366, 768); audio_master_gain(0.25); }
 else { audio_master_gain(0.6); }
 //audio_master_gain(0);
@@ -30,6 +32,10 @@ global.hasMeat = false;
 
 global.hFastSnd = -1;
 global.mus = -1;
+
+global.options = false;
+global.optionsEnable = true;
+global.hud = true;
 
 timeCoinsOn = false;
 

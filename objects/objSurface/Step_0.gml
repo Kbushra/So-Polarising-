@@ -1,3 +1,5 @@
+if global.options { exit; }
+
 with objPlayer
 {
 	for (var i = 2; i < other.range; i++)

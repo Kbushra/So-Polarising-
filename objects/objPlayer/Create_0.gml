@@ -7,7 +7,8 @@ grav = 0.15;
 
 angle = 0;
 
-surplus = 1; //This will increase so you keep going faster
+hSurplus = 1; //This will increase so you keep going faster
+vSurplus = 1;
 
 idleTimer = irandom_range(120, 240);
 idling = false;

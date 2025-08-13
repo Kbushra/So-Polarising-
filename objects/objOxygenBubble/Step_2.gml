@@ -20,13 +20,12 @@ if enter
 	if !audio_is_playing(sndInBubble) { audio_play_sound(sndInBubble, 10, true); }
 	x = objPlayer.x;
 	y = objPlayer.y;
-}
-
-if !place_free(x, y)
-{
-	with objDeathTrig { active = true; }
-	image_index = 0;
-	sprite_index = sprBubbleRespawn2;
-	audio_play_sound(sndPop, 10, false);
-	audio_stop_sound(sndInBubble);
+	
+	if !place_free(x, y) || instance_exists(objDeath)
+	{
+		image_index = 0;
+		sprite_index = sprBubbleRespawn2;
+		audio_play_sound(sndPop, 10, false);
+		audio_stop_sound(sndInBubble);
+	}
 }

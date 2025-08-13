@@ -1,4 +1,4 @@
-visible = !global.inHub;
+visible = !global.inHub && global.hud;
 depth = -999;
 
 if global.score < 0 { global.score = 0; }

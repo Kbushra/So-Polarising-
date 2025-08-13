@@ -1,3 +1,5 @@
+if global.options { exit; }
+
 mask_index = hitbox;
 
 var collided = place_meeting(x, y, objHFast) || place_meeting(x, y, objVFast);

@@ -1,6 +1,7 @@
 if place_meeting(x, y, objPlayer)
 {
 	audio_pause_sound(global.mus);
+	global.score += 100;
 	
 	with (objCoinTime) { visible = true; }
 	audio_play_sound(sndCoinTimeActive, 10, false);

@@ -1,10 +1,12 @@
+if global.options { exit; }
+
 if room == global.hubRm { instance_destroy(); exit; }
 
 depth = -9998;
 x = camera_get_view_x(view_camera[0]) + 341.5;
 y = camera_get_view_y(view_camera[0]) + 16;
 
-draw_self();
+if global.hud { draw_self(); }
 
 var prevTime = _time;
 _time -= 1/60;
@@ -12,6 +14,8 @@ if _time < 0 { _time = 0; }
 if prevTime % 1 < _time % 1 { global.score -= 6; }
 
 if _time <= 0 && !instance_exists(objEnd) { instance_create_layer(x, y, "Instances", objEnd); }
+
+if !global.hud { exit; }
 
 var minutes = _time div 60;
 var formatMinutes = string(minutes);

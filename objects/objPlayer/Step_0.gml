@@ -1,3 +1,5 @@
+if global.options { exit; }
+
 if align != air && global.r-global.l == 0 && global.d-global.u == 0 { idleTimer--; }
 else { idleTimer = irandom_range(120, 240); idling = false; }
 

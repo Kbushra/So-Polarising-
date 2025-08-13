@@ -1,3 +1,5 @@
+if global.options { exit; }
+
 if !idling { charge = image_index; }
 
 if global.space
