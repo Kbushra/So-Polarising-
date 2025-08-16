@@ -2,7 +2,7 @@ if place_meeting(x, y, objPlayer) && active
 {
 	if !hit && !instance_exists(objDeath)
 	{
-		audio_play_sound(sndPowerDown, 10, false);
+		if !instance_exists(objEnd) { audio_play_sound(sndPowerDown, 10, false); }
 		alarm[0] = 12;
 		hit = true;
 	}

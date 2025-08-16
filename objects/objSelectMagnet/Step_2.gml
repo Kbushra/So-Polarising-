@@ -20,7 +20,11 @@ if select == 2 && active
 }
 else
 {
-	if !active { select = (select + global.dP - global.uP + 5) % 5; }
+	if !active
+	{
+		select = (select + global.dP - global.uP + 6) % 6;
+		if global.inHub && select == 3 { select += global.dP - global.uP; }
+	}
 	image_angle = lerp(image_angle, 180*select, 0.1);
 }
 
@@ -32,8 +36,10 @@ if global.space
 
 	if select == 1 { global.hud = !global.hud; active = false; }
 	if select == 2 { objOptionsMenu.showInfo = !objOptionsMenu.showInfo; }
-	if select == 3 { global.options = false; }
-	if select == 4 { game_end(); }
+	if select == 3
+	{ instance_create_layer(x, y, "Instances", objEnd, { fail: false }); global.options = false; }
+	if select == 4 { global.options = false; }
+	if select == 5 { game_end(); }
 	
 	exit;
 }

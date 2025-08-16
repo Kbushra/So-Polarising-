@@ -15,8 +15,8 @@ if align == vertical || align == horiverti
 {
 	if global.d-global.u != 0 && abs(vMove) > spd - 0.2
 	{
-		if abs(vMove) > spd + 1 { vSurplus += 0.004; }
-		else { vSurplus += 0.02; }
+		if abs(vMove) > spd + 1 { vSurplus += 0.005; }
+		else { vSurplus += 0.025; }
 	}
 	else { vSurplus = 1; vMove = clamp(vMove, -spd, spd); }
 }
@@ -46,7 +46,12 @@ switch align
 }
 
 //If softlocked (unlikely), dont do any collisions or anything at all
-if !place_free(x, y) { exit; }
+if !place_free(x, y)
+{
+	x += hMove;
+	y += vMove;
+	exit;
+}
 
 if !place_free(x+sign(hMove), y) && !place_meeting(x+sign(hMove), y, objSurface) { hMove = 0; }
 if !place_free(x, y+sign(vMove)) && !place_meeting(x, y+sign(vMove), objSurface) { vMove = 0; }

@@ -24,5 +24,6 @@ if showInfo
 		12, 230, 2, 2, 0);
 }
 
-draw_text_transformed(optionX, optionY[3], "Return", 2, 2, 0);
-draw_text_transformed(optionX, optionY[4], "Quit Game", 2, 2, 0);
+if !global.inHub { draw_text_transformed(optionX, optionY[3], "Hub", 2, 2, 0); }
+draw_text_transformed(optionX, optionY[4], "Return", 2, 2, 0);
+draw_text_transformed(optionX, optionY[5], "Quit Game", 2, 2, 0);

@@ -91,5 +91,5 @@ else
 global.hubMap = 0;
 global.inHub = false;
 room_goto(rmCameraTest);
-objPlayer.x = 0;
-objPlayer.y = 0;
+objPlayer.x = 300;
+objPlayer.y = 20;

@@ -8,6 +8,9 @@ global.optionsEnable = false;
 if global.mus != -1 && audio_sound_get_gain(global.mus) <= 0.01
 { audio_stop_sound(global.mus); global.mus = -1; }
 
+instance_destroy(objTransition);
+instance_destroy(objDeath);
+
 image_alpha = clamp(image_alpha, 0, 1);
 
 if image_alpha >= 1 && fadeIn

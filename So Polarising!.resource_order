@@ -30,6 +30,7 @@
     {"name":"objOptionsMenu","order":11,"path":"objects/objOptionsMenu/objOptionsMenu.yy",},
     {"name":"objPit","order":1,"path":"objects/objPit/objPit.yy",},
     {"name":"objSelectMagnet","order":12,"path":"objects/objSelectMagnet/objSelectMagnet.yy",},
+    {"name":"musWaters","order":1,"path":"sounds/musWaters/musWaters.yy",},
     {"name":"sndOptions","order":5,"path":"sounds/sndOptions/sndOptions.yy",},
     {"name":"sprArrowH","order":1,"path":"sprites/sprArrowH/sprArrowH.yy",},
     {"name":"sprCheckMark","order":15,"path":"sprites/sprCheckMark/sprCheckMark.yy",},

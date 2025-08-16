@@ -148,6 +148,7 @@
     {"id":{"name":"shWavy","path":"shaders/shWavy/shWavy.yy",},},
     {"id":{"name":"musTimeTrial","path":"sounds/musTimeTrial/musTimeTrial.yy",},},
     {"id":{"name":"musTutorial","path":"sounds/musTutorial/musTutorial.yy",},},
+    {"id":{"name":"musWaters","path":"sounds/musWaters/musWaters.yy",},},
     {"id":{"name":"sndBell","path":"sounds/sndBell/sndBell.yy",},},
     {"id":{"name":"sndBigCollect","path":"sounds/sndBigCollect/sndBigCollect.yy",},},
     {"id":{"name":"sndCoinTimeActive","path":"sounds/sndCoinTimeActive/sndCoinTimeActive.yy",},},

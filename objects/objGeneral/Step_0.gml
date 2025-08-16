@@ -9,6 +9,11 @@ switch global.hubMap
 		if global.mus == -1 { global.mus = audio_play_sound(musTutorial, 10, false); }
 		if audio_sound_get_track_position(global.mus) >= 48 { audio_sound_set_track_position(global.mus, 32); }
 		break;
+	
+	case 1:
+		if global.mus == -1 { global.mus = audio_play_sound(musWaters, 10, false); }
+		if audio_sound_get_track_position(global.mus) >= 48 { audio_sound_set_track_position(global.mus, 32); }
+		break;
 }
 
 if global.mus != -1 { audio_sound_gain(global.mus, 1, 50); }

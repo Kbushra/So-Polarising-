@@ -18,7 +18,7 @@ if align == -1
 		else { align = horiverti; }
 	}
 	
-	if align == -1 { align = air; }
+	if align == -1 || !place_free(x, y) { align = air; }
 }
 
 inv--;
